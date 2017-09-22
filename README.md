@@ -115,14 +115,14 @@ Scala code runner version 2.13.0 -- Copyright 2002-2013, LAMP/EPFL
 
 Download and extract pre-built package from [Spark download page](https://spark.apache.org/downloads.html).
 
-***Note:*** *Also here, you may want to check if there's a more recent version: visit the [Spark download page](http://spark.apache.org/downloads.html)*.
-
 <div id='spark-compile'/></div>
 
 ### 2.2 | Compile source
 ```bash
 $ cd ~/Downloads/spark-2.2.0-bin-hadoop2.7
 ```
+***Note:*** *You may want to check if there's a more recent version. At the time of this writing, 2.2.0 was the most recent stable release. Visit the  [Spark download page](http://spark.apache.org/downloads.html) to check for updates.*.
+
 After that, you can check whether Spark installed correctly by running the following example that should return the number π ≈ 3.14159...
 
 ```bash
