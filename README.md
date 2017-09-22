@@ -200,4 +200,3 @@ pyspark
 ```
 
 ![imagen](https://i.imgur.com/yDRNX2O.png)
-![imagen](https://i.imgur.com/yDRNX2O.png "Optional title")
