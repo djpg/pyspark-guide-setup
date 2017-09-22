@@ -29,7 +29,7 @@ This is guide for installing and configuring an instance of Apache Spark and its
   
 ---
 
-In order to run Spark, we need Scala, which in turn requires Java. So, let's install these requirements first
+In order to run Spark, we need differents requirements, which in turn requires Java. So, let's install these requirements first
 
 <div id='requirements'/></div>
 
