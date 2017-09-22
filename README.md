@@ -199,4 +199,5 @@ Now we're finally ready to start running our first PySpark application. Load the
 pyspark
 ```
 
-![alt text](https://ibb.co/gpu1r5)
+![imagen](https://i.imgur.com/yDRNX2O.png)
+![imagen](https://i.imgur.com/yDRNX2O.png "Optional title")
