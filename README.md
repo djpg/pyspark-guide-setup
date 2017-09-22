@@ -113,7 +113,7 @@ Scala code runner version 2.13.0 -- Copyright 2002-2013, LAMP/EPFL
 
 ### 2.1 | Download and extract 
 
-Download and extract pre-built package from [Spark download page]: (https://spark.apache.org/downloads.html)
+Download and extract pre-built package from [Spark download page](https://spark.apache.org/downloads.html).
 
 ***Note:*** *Also here, you may want to check if there's a more recent version: visit the [Spark download page](http://spark.apache.org/downloads.html)*.
 
