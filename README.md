@@ -5,6 +5,8 @@ This is guide for installing and configuring an instance of Apache Spark and its
 
 ---
 
+![imagen](https://i.imgur.com/yDRNX2O.png)
+
 ## Table of Contents
 1. [Install Requirements](#requirements)
 
