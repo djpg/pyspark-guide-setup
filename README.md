@@ -10,11 +10,11 @@ This is guide for installing and configuring an instance of Apache Spark and its
 
     1.1 [Install Java](#requirements-java)
 
-    1.2 [Install Scala](#requirements-scala)
+    1.2 [Install git](#requirements-git)
 
-    1.3 [Install git](#requirements-git)
-
-    1.4 [Install py4j](#requirements-py4j)
+    1.3 [Install py4j](#requirements-py4j)
+    
+    1.4 [Install Scala (Optional)](#requirements-scala)
 
 2. [Set Up Apache Spark](#spark)
 
@@ -59,9 +59,32 @@ Java(TM) SE Runtime Environment (build 1.8.0_144-b01)
 Java HotSpot(TM) 64-Bit Server VM (build 25.144-b01, mixed mode)
 ```
 
+<div id='requirements-git'/></div>
+
+### 1.2 | Install git
+
+We shall install Apache Spark by building it from source. This procedure depends implicitly on git, thus be sure install git if you haven't already:
+```bash
+$ sudo apt-get -y install git
+```
+
+<div id='requirements-py4j'/></div>
+
+### 1.3 | Install py4j
+
+PySpark requires the `py4j` python package. If you're running a virtual environment, run:
+
+```bash
+$ pip install py4j
+```
+otherwise, run:
+```bash
+$ sudo pip install py4j
+```
+
 <div id='requirements-scala'/></div>
 
-### 1.2 | Install Scala
+### 1.4 | Install Scala (optional)
 
 Download and install deb package from scala-lang.org:
 
@@ -80,29 +103,6 @@ $ scala -version
 which should return something like:
 ```bash
 Scala code runner version 2.13.0 -- Copyright 2002-2013, LAMP/EPFL
-```
-
-<div id='requirements-git'/></div>
-
-### 1.3 | Install git
-
-We shall install Apache Spark by building it from source. This procedure depends implicitly on git, thus be sure install git if you haven't already:
-```bash
-$ sudo apt-get -y install git
-```
-
-<div id='requirements-py4j'/></div>
-
-### 1.4 | Install py4j
-
-PySpark requires the `py4j` python package. If you're running a virtual environment, run:
-
-```bash
-$ pip install py4j
-```
-otherwise, run:
-```bash
-$ sudo pip install py4j
 ```
 
 <div id='spark'/></div>
