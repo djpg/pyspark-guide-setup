@@ -27,6 +27,8 @@ This is guide for installing and configuring an instance of Apache Spark and its
     2.3 [Install files](#spark-install)
 
 3. [Check installation](#check)
+    
+    3.1 [Basic configuration](#configuration)
 
   
 ---
@@ -202,3 +204,17 @@ pyspark
 ```
 
 ![imagen](https://i.imgur.com/yDRNX2O.png)
+
+
+<div id='configuration'/></div>
+
+### 3.1 | Basic Configuration
+
+Now we can set the configuration of spark: 
+- master local[x]: x = nº CPU, with * you set all of the cores.
+- driver-memory xG: x size of ram.
+...
+
+```bash
+pyspark --master local[*] --driver-memory 4G
+```
